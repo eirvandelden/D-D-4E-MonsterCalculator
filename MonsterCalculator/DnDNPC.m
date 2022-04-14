@@ -147,7 +147,7 @@
 
 @synthesize damageBonus;
 -(void)setDamageBonus{
-    damageBonus = 2 + level; //Based on Level+8 for average damage.
+    damageBonus = 8 + level; //Based on Level+8 for average damage.
 
     if ([secondaryRole isEqualToString:@"Minion"]) {
         // Half level + 4
